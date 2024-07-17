@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Aba CONTATO</title>
+</head>
+
+<header id='cabeçalho'>
+
+  <div style='text-align:right'>
+    <span> <a href='home.html'> HOME | </a> </span>
+    <span> <a href='contato.html'> CONTATO | </a> </span>
+    <span> <a href='sobre.html'> SOBRE |</a> </span>
+    <span> <a href='evento.html'> EVENTOS </a> </span>
+  </div>
+
+  <p></p>
+
+  <div> <img src='Logo.jpg' alt='Logo IFSP' width='800px' heigth='200px' /> </div>
+</header>
+<h1> INSCREVA-SE! APROVEITE ANTES QUE ESGOTEM! </h1>
+  
+  <form name="evento">
+      Evento
+      <select name="evento" required>
+        <option value="">-- Nenhum --</option>
+        <option value="voe">Palestra</option>
+        <option value="festa"></option>
+        <option value="semana">Semana de tecnologia</option>
+      </select>
+  
+    <fieldset name="Informações de Acesso">
+      <br>
+      <legend>Informações de Acesso</legend>
+      <div>
+        Usuário: <input type="text" name="Usuario" required>
+      </div>
+      <br>
+      <div>
+        Senha: <input type="password" name="Senha" required>
+      </div>
+      <br>
+      <div>
+        Confirme a senha: <input type="text" placeholder="ConfirmE a senha" required>
+      </div>
+      <br>
+    </fieldset>
+
+    <fieldset name="Informações Pessoais">
+
+      <br>
+      
+      <legend>Informações Pessoais</legend>
+      <div>
+        Nome Completo: <input type="text" placeholder="Nome completo" required>
+      </div>
+      <br>
+      <div>
+        E-mail: <input type="email" placeholder="Email" required>
+      </div>
+      <br>
+      <div>
+        Celular: <input type="tel" placeholder="(00) 00000-0000" required> (99) 99999-9999
+      </div>
+
+      <br>
+
+      <fieldset>
+
+      <br>
+        
+        <legend>Sexo:</legend>
+        <div>
+          <label for="masc">Masculino</label>
+          <input type="radio" name="sexo" value="masc" id="masc">
+          <label for="masc">Feminino</label>
+          <input type="radio" name="sexo" value="Feminino" id="Feminino">
+        </div>
+        <br>
+      </fieldset>
+
+      <br>
+
+      <div>
+        Data de Nascimento <input type="date" required>
+      </div>
+      <br>
+      <div>
+        Cor favorita <input type="color" required>
+      </div>
+      <br>
+      Perfil no Github <input type="url" placeholder="https://github.com/usuario" required>
+      <br>
+    </fieldset>
+
+    <button type="submit" form="evento">Inscrever</button>
+    <input type="reset" value="Limpar" />
+  </form>
+  </body>
+
+  </html>
